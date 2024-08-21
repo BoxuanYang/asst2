@@ -13,6 +13,7 @@ ITaskSystem::~ITaskSystem() {}
  */
 
 const char* TaskSystemSerial::name() {
+    printf("Hello world\n");
     return "Serial";
 }
 
